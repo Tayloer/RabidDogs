@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "rabiddog",
+	"version": "1.0.0",
+	"name": "RabidDog",
+	"description": "Made for a 'Propeller Trio' YouTube video. Coded by Tayloer",
+	"authors": [
+		"Tayloer",
+		"Propeller Trio"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rabiddog/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.taylor.RabidDog"
+		],
+		"client": [
+				"me.taylor.RabidDogClient"
+		],
+		"fabric-datagen": [
+			"me.taylor.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"animalpursuit.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"geckolib": "<=4.2.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.taylor.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "animalpursuit-refmap.json"
+}
